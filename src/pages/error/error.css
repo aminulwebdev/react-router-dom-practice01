@@ -1,0 +1,33 @@
+header {
+  background-color: #e74c3c; /* Red for 404 */
+  padding: 20px;
+  color: white;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+main {
+  margin: 40px 0;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #007bff; /* Blue for links */
+  text-decoration: none;
+}

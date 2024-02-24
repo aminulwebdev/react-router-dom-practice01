@@ -1,0 +1,40 @@
+#counter {
+    margin-bottom: 227px;
+}
+
+#counter .container_wrapper {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+}
+
+#counter .container_wrapper .counter_item {
+    width: 308px;
+    background: rgba(255, 244, 229, 0.5);
+    padding: 40px 48px 45px 48px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#counter .container_wrapper .counter_item:nth-child(2) {
+    background-color: #f3fef4;
+}
+
+#counter .container_wrapper .counter_item:nth-child(3) {
+    background-color: #f9f9fe;
+}
+
+#counter .container_wrapper .counter_item:nth-child(3) {
+    background-color: #fef8fa;
+}
+
+.counter_item span {
+    color: var(--secondary);
+    font-size: 80px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.counter_item h6 {
+    margin-top: 8px;
+}
